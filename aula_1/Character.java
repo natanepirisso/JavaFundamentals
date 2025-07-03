@@ -1,9 +1,4 @@
-public class Main {
-    public static void main() {
-        Character pessoa1 = new Character("Josh");
-        pessoa1.walk();
-    }
-}
+package aula_1;
 class Character {
     String firstName;
     public Character(String firstName){
@@ -13,3 +8,4 @@ class Character {
         System.out.println(this.firstName + " " + "está andando");
     }
 }
+
